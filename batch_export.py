@@ -1,3 +1,8 @@
+"""
+Script by Albert Ortiz @skydrowDev 
+Automatically bakes and exports all the actions of a control rig/game rig workflow.
+"""
+
 import bpy
 
 """
