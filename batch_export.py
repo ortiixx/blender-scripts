@@ -26,8 +26,7 @@ def SelectGameRigBones():
 
 #Returns a list with the action's frame range [FrameStart, FrameEnd]
 def GetActionFrameRange(action):
-    keys = (sorted(set([item for item in action.frame_range])))
-    return keys
+    return (sorted(set([item for item in action.frame_range])))
 
 #Initialization
 obj = bpy.data.objects[control_rig_name] #Control rig
@@ -54,7 +53,7 @@ if ad and ad.action:
                 clear_parents = True,
                 clean_curves = True,
                 bake_types={'POSE'}
-                )       
+                )
             action_name = '{0}{1}'.format(prefix, s.action.name)
             obj2.animation_data.action.name = action_name
 
