@@ -12,7 +12,7 @@ import bpy
 """
 control_rig_name = 'rig'
 game_rig_name = 'root'
-prefix = 'pman_'
+prefix = 'prefix_'
 export_folder = 'Test/'     #Relative to the .blend directory
 batch_export = True
 
